@@ -1,0 +1,10 @@
+//
+//  Trends-Prefix.pch
+//  Trends
+//
+//  Created by Alex Malkoff on 15.10.15.
+//  Copyright © 2015 cpthooch. All rights reserved.
+//
+
+#import "UIColor+Extra.h"
+#import <libextobjc/extobjc.h>

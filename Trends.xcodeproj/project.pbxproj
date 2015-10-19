@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680BE3CB1BCEFA58009A8103 /* ThumbViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 680BE3CA1BCEFA58009A8103 /* ThumbViewCell.m */; };
+		680BE3CE1BCF0579009A8103 /* UIColor+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 680BE3CD1BCF0579009A8103 /* UIColor+Extra.m */; };
+		681012C21BCD9A3E009FAB93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 681012C11BCD9A3E009FAB93 /* main.m */; };
+		681012C51BCD9A3E009FAB93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 681012C41BCD9A3E009FAB93 /* AppDelegate.m */; };
+		681012C81BCD9A3E009FAB93 /* Trends.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 681012C61BCD9A3E009FAB93 /* Trends.xcdatamodeld */; };
+		681012CB1BCD9A3E009FAB93 /* ThumbnailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681012CA1BCD9A3E009FAB93 /* ThumbnailsViewController.m */; };
+		681012CE1BCD9A3E009FAB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681012CC1BCD9A3E009FAB93 /* Main.storyboard */; };
+		681012D01BCD9A3E009FAB93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681012CF1BCD9A3E009FAB93 /* Images.xcassets */; };
+		681012D31BCD9A3E009FAB93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681012D11BCD9A3E009FAB93 /* LaunchScreen.xib */; };
+		681012DF1BCD9A3E009FAB93 /* TrendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681012DE1BCD9A3E009FAB93 /* TrendsTests.m */; };
+		687F50321BD4100700C69DE0 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 687F50311BD4100700C69DE0 /* DataManager.m */; };
+		687F50351BD43AC500C69DE0 /* MediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 687F50341BD43AC500C69DE0 /* MediaItem.m */; };
+		687F503B1BD45BBF00C69DE0 /* MediaItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687F503A1BD45BBF00C69DE0 /* MediaItemViewController.m */; };
+		68FBC7981BD26ED2001651F1 /* TrendsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBC7971BD26ED2001651F1 /* TrendsNavController.m */; };
+		68FBC79C1BD27BBA001651F1 /* ZoomingTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBC79B1BD27BBA001651F1 /* ZoomingTransitionAnimator.m */; };
+		D4F0B11D272ABAB1EF1FF744 /* libPods-Trends.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C41415340660FE257BA92D51 /* libPods-Trends.a */; };
+		EEF66B991BD507D900BB5768 /* MediaStore+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF66B961BD507D900BB5768 /* MediaStore+CoreDataProperties.m */; };
+		EEF66B9A1BD507DA00BB5768 /* MediaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF66B981BD507D900BB5768 /* MediaStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681012D91BCD9A3E009FAB93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681012B41BCD9A3E009FAB93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681012BB1BCD9A3E009FAB93;
+			remoteInfo = Trends;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		274056F0D682848B14B92B79 /* Pods-Trends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trends/Pods-Trends.debug.xcconfig"; sourceTree = "<group>"; };
+		371D65A03537C4F95FB46650 /* Pods-Trends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trends.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trends/Pods-Trends.release.xcconfig"; sourceTree = "<group>"; };
+		680BE3C91BCEFA58009A8103 /* ThumbViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbViewCell.h; sourceTree = "<group>"; };
+		680BE3CA1BCEFA58009A8103 /* ThumbViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbViewCell.m; sourceTree = "<group>"; };
+		680BE3CC1BCF0579009A8103 /* UIColor+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extra.h"; sourceTree = "<group>"; };
+		680BE3CD1BCF0579009A8103 /* UIColor+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extra.m"; sourceTree = "<group>"; };
+		680BE3CF1BCF0682009A8103 /* Trends-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trends-Prefix.pch"; sourceTree = "<group>"; };
+		681012BC1BCD9A3E009FAB93 /* Trends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		681012C01BCD9A3E009FAB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681012C11BCD9A3E009FAB93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		681012C31BCD9A3E009FAB93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		681012C41BCD9A3E009FAB93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		681012C71BCD9A3E009FAB93 /* Trends.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trends.xcdatamodel; sourceTree = "<group>"; };
+		681012C91BCD9A3E009FAB93 /* ThumbnailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbnailsViewController.h; sourceTree = "<group>"; };
+		681012CA1BCD9A3E009FAB93 /* ThumbnailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbnailsViewController.m; sourceTree = "<group>"; };
+		681012CD1BCD9A3E009FAB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		681012CF1BCD9A3E009FAB93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		681012D21BCD9A3E009FAB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		681012D81BCD9A3E009FAB93 /* TrendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681012DD1BCD9A3E009FAB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681012DE1BCD9A3E009FAB93 /* TrendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendsTests.m; sourceTree = "<group>"; };
+		687F50301BD4100700C69DE0 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		687F50311BD4100700C69DE0 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		687F50331BD43AC500C69DE0 /* MediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaItem.h; sourceTree = "<group>"; };
+		687F50341BD43AC500C69DE0 /* MediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaItem.m; sourceTree = "<group>"; };
+		687F50391BD45BBF00C69DE0 /* MediaItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaItemViewController.h; sourceTree = "<group>"; };
+		687F503A1BD45BBF00C69DE0 /* MediaItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaItemViewController.m; sourceTree = "<group>"; };
+		68FBC7961BD26ED2001651F1 /* TrendsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendsNavController.h; sourceTree = "<group>"; };
+		68FBC7971BD26ED2001651F1 /* TrendsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendsNavController.m; sourceTree = "<group>"; };
+		68FBC79A1BD27BBA001651F1 /* ZoomingTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingTransitionAnimator.h; sourceTree = "<group>"; };
+		68FBC79B1BD27BBA001651F1 /* ZoomingTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingTransitionAnimator.m; sourceTree = "<group>"; };
+		C41415340660FE257BA92D51 /* libPods-Trends.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Trends.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF66B951BD507D900BB5768 /* MediaStore+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediaStore+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EEF66B961BD507D900BB5768 /* MediaStore+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MediaStore+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EEF66B971BD507D900BB5768 /* MediaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaStore.h; sourceTree = "<group>"; };
+		EEF66B981BD507D900BB5768 /* MediaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		681012B91BCD9A3E009FAB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F0B11D272ABAB1EF1FF744 /* libPods-Trends.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681012D51BCD9A3E009FAB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33AB431B2C9097ADA1D6D518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				274056F0D682848B14B92B79 /* Pods-Trends.debug.xcconfig */,
+				371D65A03537C4F95FB46650 /* Pods-Trends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		681012B31BCD9A3E009FAB93 = {
+			isa = PBXGroup;
+			children = (
+				681012BE1BCD9A3E009FAB93 /* Trends */,
+				681012DB1BCD9A3E009FAB93 /* TrendsTests */,
+				681012BD1BCD9A3E009FAB93 /* Products */,
+				33AB431B2C9097ADA1D6D518 /* Pods */,
+				EB75998A62E2CF95F240219F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		681012BD1BCD9A3E009FAB93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				681012BC1BCD9A3E009FAB93 /* Trends.app */,
+				681012D81BCD9A3E009FAB93 /* TrendsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		681012BE1BCD9A3E009FAB93 /* Trends */ = {
+			isa = PBXGroup;
+			children = (
+				EEF66B941BD507CB00BB5768 /* Data */,
+				68FBC7991BD27A22001651F1 /* ZoomingTransition */,
+				681012BF1BCD9A3E009FAB93 /* Supporting Files */,
+				681012CC1BCD9A3E009FAB93 /* Main.storyboard */,
+				681012C31BCD9A3E009FAB93 /* AppDelegate.h */,
+				681012C41BCD9A3E009FAB93 /* AppDelegate.m */,
+				687F50391BD45BBF00C69DE0 /* MediaItemViewController.h */,
+				687F503A1BD45BBF00C69DE0 /* MediaItemViewController.m */,
+				681012C91BCD9A3E009FAB93 /* ThumbnailsViewController.h */,
+				681012CA1BCD9A3E009FAB93 /* ThumbnailsViewController.m */,
+				680BE3C91BCEFA58009A8103 /* ThumbViewCell.h */,
+				680BE3CA1BCEFA58009A8103 /* ThumbViewCell.m */,
+				68FBC7961BD26ED2001651F1 /* TrendsNavController.h */,
+				68FBC7971BD26ED2001651F1 /* TrendsNavController.m */,
+				680BE3CC1BCF0579009A8103 /* UIColor+Extra.h */,
+				680BE3CD1BCF0579009A8103 /* UIColor+Extra.m */,
+			);
+			path = Trends;
+			sourceTree = "<group>";
+		};
+		681012BF1BCD9A3E009FAB93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681012CF1BCD9A3E009FAB93 /* Images.xcassets */,
+				681012C01BCD9A3E009FAB93 /* Info.plist */,
+				681012D11BCD9A3E009FAB93 /* LaunchScreen.xib */,
+				681012C11BCD9A3E009FAB93 /* main.m */,
+				680BE3CF1BCF0682009A8103 /* Trends-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		681012DB1BCD9A3E009FAB93 /* TrendsTests */ = {
+			isa = PBXGroup;
+			children = (
+				681012DE1BCD9A3E009FAB93 /* TrendsTests.m */,
+				681012DC1BCD9A3E009FAB93 /* Supporting Files */,
+			);
+			path = TrendsTests;
+			sourceTree = "<group>";
+		};
+		681012DC1BCD9A3E009FAB93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681012DD1BCD9A3E009FAB93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68FBC7991BD27A22001651F1 /* ZoomingTransition */ = {
+			isa = PBXGroup;
+			children = (
+				68FBC79A1BD27BBA001651F1 /* ZoomingTransitionAnimator.h */,
+				68FBC79B1BD27BBA001651F1 /* ZoomingTransitionAnimator.m */,
+			);
+			name = ZoomingTransition;
+			sourceTree = "<group>";
+		};
+		EB75998A62E2CF95F240219F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C41415340660FE257BA92D51 /* libPods-Trends.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF66B941BD507CB00BB5768 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				687F50301BD4100700C69DE0 /* DataManager.h */,
+				687F50311BD4100700C69DE0 /* DataManager.m */,
+				687F50331BD43AC500C69DE0 /* MediaItem.h */,
+				687F50341BD43AC500C69DE0 /* MediaItem.m */,
+				EEF66B971BD507D900BB5768 /* MediaStore.h */,
+				EEF66B981BD507D900BB5768 /* MediaStore.m */,
+				EEF66B951BD507D900BB5768 /* MediaStore+CoreDataProperties.h */,
+				EEF66B961BD507D900BB5768 /* MediaStore+CoreDataProperties.m */,
+				681012C61BCD9A3E009FAB93 /* Trends.xcdatamodeld */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		681012BB1BCD9A3E009FAB93 /* Trends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681012E21BCD9A3E009FAB93 /* Build configuration list for PBXNativeTarget "Trends" */;
+			buildPhases = (
+				9CD3A22B15321F2311C025E1 /* Check Pods Manifest.lock */,
+				681012B81BCD9A3E009FAB93 /* Sources */,
+				681012B91BCD9A3E009FAB93 /* Frameworks */,
+				681012BA1BCD9A3E009FAB93 /* Resources */,
+				7C72015F682A229687236C91 /* Embed Pods Frameworks */,
+				19EE87CF7C041C0681B8A6EE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trends;
+			productName = Trends;
+			productReference = 681012BC1BCD9A3E009FAB93 /* Trends.app */;
+			productType = "com.apple.product-type.application";
+		};
+		681012D71BCD9A3E009FAB93 /* TrendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681012E51BCD9A3E009FAB93 /* Build configuration list for PBXNativeTarget "TrendsTests" */;
+			buildPhases = (
+				681012D41BCD9A3E009FAB93 /* Sources */,
+				681012D51BCD9A3E009FAB93 /* Frameworks */,
+				681012D61BCD9A3E009FAB93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681012DA1BCD9A3E009FAB93 /* PBXTargetDependency */,
+			);
+			name = TrendsTests;
+			productName = TrendsTests;
+			productReference = 681012D81BCD9A3E009FAB93 /* TrendsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		681012B41BCD9A3E009FAB93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = cpthooch;
+				TargetAttributes = {
+					681012BB1BCD9A3E009FAB93 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					681012D71BCD9A3E009FAB93 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 681012BB1BCD9A3E009FAB93;
+					};
+				};
+			};
+			buildConfigurationList = 681012B71BCD9A3E009FAB93 /* Build configuration list for PBXProject "Trends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 681012B31BCD9A3E009FAB93;
+			productRefGroup = 681012BD1BCD9A3E009FAB93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				681012BB1BCD9A3E009FAB93 /* Trends */,
+				681012D71BCD9A3E009FAB93 /* TrendsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		681012BA1BCD9A3E009FAB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681012CE1BCD9A3E009FAB93 /* Main.storyboard in Resources */,
+				681012D31BCD9A3E009FAB93 /* LaunchScreen.xib in Resources */,
+				681012D01BCD9A3E009FAB93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681012D61BCD9A3E009FAB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19EE87CF7C041C0681B8A6EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trends/Pods-Trends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C72015F682A229687236C91 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trends/Pods-Trends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD3A22B15321F2311C025E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		681012B81BCD9A3E009FAB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680BE3CE1BCF0579009A8103 /* UIColor+Extra.m in Sources */,
+				681012C51BCD9A3E009FAB93 /* AppDelegate.m in Sources */,
+				680BE3CB1BCEFA58009A8103 /* ThumbViewCell.m in Sources */,
+				EEF66B9A1BD507DA00BB5768 /* MediaStore.m in Sources */,
+				68FBC7981BD26ED2001651F1 /* TrendsNavController.m in Sources */,
+				687F50351BD43AC500C69DE0 /* MediaItem.m in Sources */,
+				681012C21BCD9A3E009FAB93 /* main.m in Sources */,
+				EEF66B991BD507D900BB5768 /* MediaStore+CoreDataProperties.m in Sources */,
+				687F50321BD4100700C69DE0 /* DataManager.m in Sources */,
+				681012CB1BCD9A3E009FAB93 /* ThumbnailsViewController.m in Sources */,
+				681012C81BCD9A3E009FAB93 /* Trends.xcdatamodeld in Sources */,
+				687F503B1BD45BBF00C69DE0 /* MediaItemViewController.m in Sources */,
+				68FBC79C1BD27BBA001651F1 /* ZoomingTransitionAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681012D41BCD9A3E009FAB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681012DF1BCD9A3E009FAB93 /* TrendsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		681012DA1BCD9A3E009FAB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681012BB1BCD9A3E009FAB93 /* Trends */;
+			targetProxy = 681012D91BCD9A3E009FAB93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		681012CC1BCD9A3E009FAB93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681012CD1BCD9A3E009FAB93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		681012D11BCD9A3E009FAB93 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681012D21BCD9A3E009FAB93 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		681012E01BCD9A3E009FAB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		681012E11BCD9A3E009FAB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681012E31BCD9A3E009FAB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274056F0D682848B14B92B79 /* Pods-Trends.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Trends/Trends-Prefix.pch";
+				INFOPLIST_FILE = Trends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		681012E41BCD9A3E009FAB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371D65A03537C4F95FB46650 /* Pods-Trends.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Trends/Trends-Prefix.pch";
+				INFOPLIST_FILE = Trends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		681012E61BCD9A3E009FAB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trends.app/Trends";
+			};
+			name = Debug;
+		};
+		681012E71BCD9A3E009FAB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trends.app/Trends";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		681012B71BCD9A3E009FAB93 /* Build configuration list for PBXProject "Trends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681012E01BCD9A3E009FAB93 /* Debug */,
+				681012E11BCD9A3E009FAB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681012E21BCD9A3E009FAB93 /* Build configuration list for PBXNativeTarget "Trends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681012E31BCD9A3E009FAB93 /* Debug */,
+				681012E41BCD9A3E009FAB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681012E51BCD9A3E009FAB93 /* Build configuration list for PBXNativeTarget "TrendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681012E61BCD9A3E009FAB93 /* Debug */,
+				681012E71BCD9A3E009FAB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		681012C61BCD9A3E009FAB93 /* Trends.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				681012C71BCD9A3E009FAB93 /* Trends.xcdatamodel */,
+			);
+			currentVersion = 681012C71BCD9A3E009FAB93 /* Trends.xcdatamodel */;
+			path = Trends.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 681012B41BCD9A3E009FAB93 /* Project object */;
+}
